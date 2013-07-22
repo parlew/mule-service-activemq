@@ -1,0 +1,49 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/app" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="MULE_RUNTIME"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0.jar" sourcepath="M2_REPO/org/apache/activemq/activemq-all/5.8.0/activemq-all-5.8.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-amqp/5.8.0/activemq-amqp-5.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-broker/5.8.0/activemq-broker-5.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-client/5.8.0/activemq-client-5.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-openwire-legacy/5.8.0/activemq-openwire-legacy-5.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcpkix-jdk15on/1.47/bcpkix-jdk15on-1.47.jar"/>
+  <classpathentry kind="var" path="M2_REPO/bouncycastle/bcprov-jdk14/139/bcprov-jdk14-139.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcprov-jdk15on/1.47/bcprov-jdk15on-1.47.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.2/ftplet-api-1.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.2/ftpserver-core-1.0.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Andrew%20Finnell/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/hawtbuf/hawtbuf/1.9/hawtbuf-1.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.5/jaxb-impl-2.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-xjc/2.2.4-1/jaxb-xjc-2.2.4-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.1/jcl-over-slf4j-1.6.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jdom/jdom/1.0/jdom-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.0-M6/mina-core-2.0.0-M6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mockobjects/mockobjects-core/0.09/mockobjects-core-0.09.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/qpid/proton/0.3.0-fuse-2/proton-0.3.0-fuse-2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/qpid/proton-api/0.3.0-fuse-2/proton-api-0.3.0-fuse-2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/qpid/proton-jms/0.3.0-fuse-2/proton-jms-0.3.0-fuse-2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Andrew%20Finnell/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-tx/3.0.6.RELEASE/spring-tx-3.0.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.0.6.RELEASE/spring-web-3.0.6.RELEASE.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ws/security/wss4j/1.6.4/wss4j-1.6.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xbean/xbean-spring/3.4.3/xbean-spring-3.4.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/santuario/xmlsec/1.4.6/xmlsec-1.4.6.jar"/>
+</classpath>

@@ -1,0 +1,36 @@
+
+This is a simple Mule application that creates a
+complete functional Active MQ broker. 
+
+RUNTIME
+	Mule 3.4.0 CE
+
+BUILDING
+
+	mvn package
+
+INSTALLING
+
+	Drop target/mule-service-activemq.zip into MULE_HOME/apps
+
+CONFIGURATION
+	
+	activemq-config.xml          - Default Active MQ configuration file that starts an openwire and amqp transport
+	mule-app.properties          - Settings file for the Active MQ broker.
+	mule-app-override.properties - Use this file to override settings from mule-app.properties
+
+LICENSE
+
+   Copyright 2013 Andrew T Finnell (Dueling Coders, LLC)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
